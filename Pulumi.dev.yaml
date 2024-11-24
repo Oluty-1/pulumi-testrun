@@ -1,2 +1,5 @@
 config:
   aws:region: us-west-1
+  infrastructure:environment: dev
+  infrastructure:vpc_cidr: 10.0.0.0/16
+  infrastructure:domain_name: yourdomain.com
